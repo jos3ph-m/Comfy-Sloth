@@ -10,7 +10,11 @@ const Button = styled.button`
 `;
 
 function App() {
-  return <h4>comfy sloth starter</h4>;
+  return (
+    <div>
+      <h4>comfy sloth starter</h4>;<Button>click me</Button>
+    </div>
+  );
 }
 
 export default App;
