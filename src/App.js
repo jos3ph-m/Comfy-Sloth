@@ -6,6 +6,7 @@ import styled from 'styled-components';
 
 const Button = styled.button`
   background: green;
+  color: white;
 `;
 
 function App() {
