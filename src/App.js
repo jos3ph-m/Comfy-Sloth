@@ -12,7 +12,6 @@ const Button = styled.button`
 const Container = styled.div`
   background: red;
   color: white;
-  font-size: 2rem;
 `;
 
 function App() {
