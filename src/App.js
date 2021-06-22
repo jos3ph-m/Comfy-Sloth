@@ -12,6 +12,9 @@ const Button = styled.button`
 const Container = styled.div`
   background: red;
   color: white;
+  .hero {
+    font-size: 8rem;
+  }
 `;
 
 function App() {
