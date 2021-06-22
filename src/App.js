@@ -9,7 +9,9 @@ const Button = styled.button`
   color: white;
 `;
 
-const Container = styled.div``;
+const Container = styled.div`
+  background: red;
+`;
 
 function App() {
   return (
