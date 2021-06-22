@@ -4,27 +4,6 @@ import { Navbar, Sidebar, Footer } from './components';
 
 import styled from 'styled-components';
 
-const Button = styled.button`
-  background: green;
-  color: white;
-`;
-
-const Container = styled.div`
-  background: red;
-  color: white;
-  .hero {
-    font-size: 8rem;
-  }
-`;
-
-const Container2 = styled.div`
-  background: red;
-  color: white;
-  .hero {
-    font-size: 2rem;
-  }
-`;
-
 function App() {
   return (
     <div>
