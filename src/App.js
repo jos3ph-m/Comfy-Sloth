@@ -18,7 +18,13 @@ const Container = styled.div`
 function App() {
   return (
     <div>
-      <h4>comfy sloth starter</h4>;<Button>click me</Button>
+      <h4>comfy sloth starter</h4>
+      <Button>click me</Button>
+      <Container>
+        <div>
+          <h3>hello world</h3>
+        </div>
+      </Container>
     </div>
   );
 }
