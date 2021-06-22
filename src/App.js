@@ -23,6 +23,7 @@ function App() {
         <div>
           <h3>hello world</h3>
         </div>
+        <div className="hero">hero text</div>
       </Container>
     </div>
   );
