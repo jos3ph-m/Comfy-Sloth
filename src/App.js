@@ -17,6 +17,14 @@ const Container = styled.div`
   }
 `;
 
+const Container2 = styled.div`
+  background: red;
+  color: white;
+  .hero {
+    font-size: 2rem;
+  }
+`;
+
 function App() {
   return (
     <div>
@@ -28,6 +36,12 @@ function App() {
         </div>
         <div className="hero">hero text</div>
       </Container>
+      <Container2>
+        <div>
+          <h3>hello world</h3>
+        </div>
+        <div className="hero">hero text</div>
+      </Container2>
     </div>
   );
 }
