@@ -2,8 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Navbar, Sidebar, Footer } from './components';
 
-import About from './pages/AboutPage';
-
 function App() {
   return (
     <div>
