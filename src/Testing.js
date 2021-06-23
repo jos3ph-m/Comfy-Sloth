@@ -6,6 +6,9 @@ const Testing = () => {
     <Wrapper>
       <h3>hello world</h3>
       <p>hello people</p>
+      <div className="article">
+        <p>this is article</p>
+      </div>
       <button>hello button</button>
     </Wrapper>
   );
@@ -14,6 +17,11 @@ const Testing = () => {
 const Wrapper = styled.section`
   h3 {
     color: red;
+  }
+  .article {
+    p {
+      color: purple;
+    }
   }
 `;
 
