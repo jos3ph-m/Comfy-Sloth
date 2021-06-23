@@ -4,3 +4,5 @@ import styled from 'styled-components';
 export const Testing = () => {
   return <div></div>;
 };
+
+const Wrapper = styled.section``;
