@@ -5,6 +5,7 @@ export const Testing = () => {
   return (
     <Wrapper>
       <h3>hello world</h3>
+      <p>hello people</p>
     </Wrapper>
   );
 };
