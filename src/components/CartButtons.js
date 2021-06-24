@@ -7,7 +7,11 @@ import { useCartContext } from '../context/cart_context';
 import { useUserContext } from '../context/user_context';
 
 const CartButtons = () => {
-  return <Wrapper className="cart-btn-wrapper">cart buttons </Wrapper>;
+  return (
+    <Wrapper className="cart-btn-wrapper">
+      <Link to="/cart" className="cart-btn"></Link>
+    </Wrapper>
+  );
 };
 
 const Wrapper = styled.div`
