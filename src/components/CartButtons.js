@@ -13,9 +13,12 @@ const CartButtons = () => {
         Cart
         <span className="cart-container">
           <FaShoppingCart />
-          <span className="cart-value"></span>
+          <span className="cart-value">12</span>
         </span>
       </Link>
+      <button type="button" className="auth-btn">
+        Login <FaUserPlus />
+      </button>
     </Wrapper>
   );
 };
