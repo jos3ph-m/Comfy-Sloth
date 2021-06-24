@@ -16,8 +16,11 @@ import {
 function App() {
   return (
     <Router>
-      <h4>comfy sloth starter</h4>
-      <Home />
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+      </Switch>
     </Router>
   );
 }
