@@ -20,6 +20,7 @@ const Nav = () => {
             <FaBars />
           </button>
         </div>
+        <ul className="nav-links"></ul>
       </div>
     </NavContainer>
   );
