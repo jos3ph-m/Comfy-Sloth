@@ -12,7 +12,11 @@ const Nav = () => {
   return (
     <NavContainer>
       <div className="nav-center">
-        <div className="nav-header"></div>
+        <div className="nav-header">
+          <Link to="/">
+            <img src={logo} alt="comfy sloth" />
+          </Link>
+        </div>
       </div>
     </NavContainer>
   );
