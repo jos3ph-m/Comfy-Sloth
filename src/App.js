@@ -23,6 +23,9 @@ function App() {
         <Route exact path="/about">
           <About />
         </Route>
+        <Route exact path="/cart">
+          <Cart />
+        </Route>
       </Switch>
     </Router>
   );
