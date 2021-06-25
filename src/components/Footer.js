@@ -1,7 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 const Footer = () => {
-  return <Wrapper>footer</Wrapper>;
+  return (
+    <Wrapper>
+      <h4>&copy; {new Date().getFullYear()}</h4>
+    </Wrapper>
+  );
 };
 
 const Wrapper = styled.footer`
