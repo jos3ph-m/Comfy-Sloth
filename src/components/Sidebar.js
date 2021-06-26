@@ -9,7 +9,11 @@ import CartButtons from './CartButtons';
 import { useUserContext } from '../context/user_context';
 
 const Sidebar = () => {
-  return <SidebarContainer></SidebarContainer>;
+  return (
+    <SidebarContainer>
+      <aside></aside>
+    </SidebarContainer>
+  );
 };
 
 const SidebarContainer = styled.div`
