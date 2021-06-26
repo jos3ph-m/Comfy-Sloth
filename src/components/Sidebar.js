@@ -13,7 +13,9 @@ const Sidebar = () => {
   return (
     <SidebarContainer>
       <aside className={`${isOpen ? 'sidebar show-sidebar' : 'show-sidebar'}`}>
-        <div className="sidebar-header"></div>
+        <div className="sidebar-header">
+          <img src={logo} className="logo" alt="comfy sloth" />
+        </div>
       </aside>
     </SidebarContainer>
   );
