@@ -12,7 +12,9 @@ const Sidebar = () => {
   const isOpen = true;
   return (
     <SidebarContainer>
-      <aside className=""></aside>
+      <aside
+        className={`${isOpen ? 'sidebar show-sidebar' : 'show-sidebar'}`}
+      ></aside>
     </SidebarContainer>
   );
 };
