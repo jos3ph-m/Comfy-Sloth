@@ -28,7 +28,7 @@ const Sidebar = () => {
             );
           })}
           <li>
-            <Link to={url}>{text}</Link>
+            <Link to="/checkout">{text}</Link>
           </li>
         </ul>
       </aside>
