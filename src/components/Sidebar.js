@@ -27,6 +27,9 @@ const Sidebar = () => {
               </li>
             );
           })}
+          <li>
+            <Link to={url}>{text}</Link>
+          </li>
         </ul>
       </aside>
     </SidebarContainer>
