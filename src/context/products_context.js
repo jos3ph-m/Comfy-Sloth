@@ -23,7 +23,7 @@ export const ProductsProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   const openSidebar = () => {
-    dispatch();
+    dispatch({ type: 'SIDEBAR_OPEN' });
   };
 
   return (
