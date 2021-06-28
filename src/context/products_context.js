@@ -25,6 +25,7 @@ export const ProductsProvider = ({ children }) => {
   const openSidebar = () => {
     dispatch({ type: 'SIDEBAR_OPEN' });
   };
+  useEffect(() => {}, []);
 
   return (
     <ProductsContext.Provider value="products context">
