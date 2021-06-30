@@ -4,7 +4,9 @@ import { Link } from 'react-router-dom';
 const ErrorPage = () => {
   return (
     <Wrapper className="page-100">
-      <section></section>
+      <section>
+        <h1>404</h1>
+      </section>
     </Wrapper>
   );
 };
