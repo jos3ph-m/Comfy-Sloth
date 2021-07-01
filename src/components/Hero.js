@@ -16,6 +16,9 @@ const Hero = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
           quia est praesentium qui, distinctio labore ipsum eos quod quo hic.
         </p>
+        <Link to="/products" className="btn hero-btn">
+          shop now
+        </Link>
       </article>
     </Wrapper>
   );
