@@ -18,6 +18,16 @@ const Services = () => {
             tenetur!
           </p>
         </article>
+        <div className="services-center">
+          {services.map((service) => {
+            const { id, icon, title, text } = service;
+            return (
+              <article key={id} className="service">
+                <span className="icon">{icon}</span>
+              </article>
+            );
+          })}
+        </div>
       </div>
     </Wrapper>
   );
