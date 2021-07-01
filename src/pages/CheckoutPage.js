@@ -9,7 +9,7 @@ const CheckoutPage = () => {
   return (
     <main>
       <PageHero title="checkout" />
-      <Wrapper classname="page"></Wrapper>
+      <Wrapper className="page"></Wrapper>
     </main>
   );
 };
