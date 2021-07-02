@@ -12,7 +12,11 @@ const Contact = () => {
             aspernatur laboriosam voluptas quos assumenda sit nihil nemo at
             natus.
           </p>
-          <form className="contact-form">
+          <form
+            className="contact-form"
+            action="https://formspree.io/f/xlealonn"
+            method="POST"
+          >
             <input
               type="email"
               className="form-input"
