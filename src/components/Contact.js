@@ -12,6 +12,16 @@ const Contact = () => {
             aspernatur laboriosam voluptas quos assumenda sit nihil nemo at
             natus.
           </p>
+          <form className="contact-form">
+            <input
+              type="email"
+              className="form-input"
+              placeholder="enter email"
+            />
+            <button type="submit" className="submit-btn">
+              Subscribe
+            </button>
+          </form>
         </div>
       </div>
     </Wrapper>
