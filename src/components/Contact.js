@@ -6,6 +6,13 @@ const Contact = () => {
     <Wrapper>
       <div className="section-center">
         <h3>Join our newsletter and get 20% off</h3>
+        <div className="content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem iusto
+            aspernatur laboriosam voluptas quos assumenda sit nihil nemo at
+            natus.
+          </p>
+        </div>
       </div>
     </Wrapper>
   );
