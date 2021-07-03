@@ -27,7 +27,7 @@ const products_reducer = (state, action) => {
       product.featured === true;
     });
 
-    return { ...state, products_loading: false };
+    return { ...state, products_loading: false, products: action.payload };
   }
 
   throw new Error(`No Matching "${action.type}" - action type`);
