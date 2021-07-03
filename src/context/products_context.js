@@ -34,6 +34,10 @@ export const ProductsProvider = ({ children }) => {
     const response = await axios.get(url);
   };
 
+  useEffect(() => {
+    fetchProducts(url);
+  }, []);
+
   return (
     <ProductsContext.Provider value={{ ...state, openSidebar, closeSidebar }}>
       {children}
