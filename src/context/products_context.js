@@ -18,6 +18,7 @@ const initialState = {
   products_loading: false,
   products_error: false,
   products: [],
+  featured_products: [],
 };
 
 const ProductsContext = React.createContext();
