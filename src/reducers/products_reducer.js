@@ -26,6 +26,8 @@ const products_reducer = (state, action) => {
     const featured_products = action.payload.filter((product) => {
       product.featured === true;
     });
+
+    return;
   }
 
   throw new Error(`No Matching "${action.type}" - action type`);
