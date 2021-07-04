@@ -13,6 +13,9 @@ const Product = ({ image, name, price, id }) => {
           <FaSearch />
         </Link>
       </div>
+      <footer>
+        <h5>{name}</h5>
+      </footer>
     </Wrapper>
   );
 };
