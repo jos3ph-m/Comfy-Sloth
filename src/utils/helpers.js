@@ -3,7 +3,7 @@ export const formatPrice = (number) => {
     style: 'currency',
     currency: 'USD',
   }).format(number);
-  return number;
+  return newNumber;
 };
 
 export const getUniqueValues = () => {};
