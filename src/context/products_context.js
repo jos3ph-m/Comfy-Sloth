@@ -49,7 +49,7 @@ export const ProductsProvider = ({ children }) => {
   };
 
   const fetchSingleProduct = async (url) => {
-    dispatch({ type: GET });
+    dispatch({ type: GET_SINGLE_PRODUCT_BEGIN });
   };
 
   useEffect(() => {
