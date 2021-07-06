@@ -50,6 +50,10 @@ export const ProductsProvider = ({ children }) => {
 
   const fetchSingleProduct = async (url) => {
     dispatch({ type: GET_SINGLE_PRODUCT_BEGIN });
+    try {
+    } catch (error) {
+      dispatch({ type: GET_SINGLE_PRODUCT_ERROR });
+    }
   };
 
   useEffect(() => {
