@@ -16,7 +16,7 @@ import { Link } from 'react-router-dom';
 
 const SingleProductPage = () => {
   const { id } = useParams();
-  const {single_product_loading: loading, single_product_error: error, single_product: product,}
+  const {single_product_loading: loading, single_product_error: error, single_product: product, fetchSingleProduct}
   return <h4>single product page</h4>;
 };
 
