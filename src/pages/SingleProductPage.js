@@ -27,6 +27,11 @@ const SingleProductPage = () => {
   }, [id]);
 
   // return home after 3 seconds
+  useEffect(() => {
+    if (error) {
+      setTimeout(() => {}, 3000);
+    }
+  }, []);
 
   if (loading) {
     return <Loading />;
