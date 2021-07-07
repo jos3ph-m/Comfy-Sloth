@@ -21,10 +21,10 @@ const SingleProductPage = () => {
     single_product_error: error,
     single_product: product,
     fetchSingleProduct,
-  } = useProductsContext()
-  useEffect(( => {
-    fetchSingleProduct(`${url}${id}`)
-  },[id])
+  } = useProductsContext();
+  useEffect(() => {
+    fetchSingleProduct(`${url}${id}`);
+  }, [id]);
   return <h4>single product page</h4>;
 };
 
