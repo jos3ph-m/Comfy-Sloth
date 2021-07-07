@@ -28,6 +28,9 @@ const SingleProductPage = () => {
   if (loading) {
     return <Loading />;
   }
+  if (error) {
+    return <Error />;
+  }
   return <h4>single product page</h4>;
 };
 
