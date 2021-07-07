@@ -25,6 +25,9 @@ const SingleProductPage = () => {
   useEffect(() => {
     fetchSingleProduct(`${url}${id}`);
   }, [id]);
+
+  // return home after 3 seconds
+
   if (loading) {
     return <Loading />;
   }
