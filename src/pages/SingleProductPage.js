@@ -59,7 +59,9 @@ const SingleProductPage = () => {
     <Wrapper>
       <PageHero title={name} product />
       <div className="section section-center page">
-        <Link to="/products">back to products</Link>
+        <Link to="/products" className="btn">
+          back to products
+        </Link>
       </div>
     </Wrapper>
   );
