@@ -43,6 +43,18 @@ const SingleProductPage = () => {
     return <Error />;
   }
 
+  const {
+    name,
+    price,
+    description,
+    stock,
+    stars,
+    reviews,
+    id: sku,
+    company,
+    images,
+  } = product;
+
   return <h4>single product page</h4>;
 };
 
