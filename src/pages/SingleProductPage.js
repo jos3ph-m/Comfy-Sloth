@@ -55,7 +55,7 @@ const SingleProductPage = () => {
     images,
   } = product;
 
-  return <h4>single product page</h4>;
+  return <Wrapper>single product page</Wrapper>;
 };
 
 const Wrapper = styled.main`
