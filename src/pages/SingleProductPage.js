@@ -64,7 +64,9 @@ const SingleProductPage = () => {
         </Link>
         <div className="product-center">
           <ProductImages />
-          <section className="content"></section>
+          <section className="content">
+            <h2>{name}</h2>
+          </section>
         </div>
       </div>
     </Wrapper>
