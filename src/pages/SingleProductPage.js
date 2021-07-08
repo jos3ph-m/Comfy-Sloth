@@ -55,7 +55,11 @@ const SingleProductPage = () => {
     images,
   } = product;
 
-  return <Wrapper>single product page</Wrapper>;
+  return (
+    <Wrapper>
+      <PageHero title={name} />
+    </Wrapper>
+  );
 };
 
 const Wrapper = styled.main`
