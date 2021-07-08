@@ -42,6 +42,7 @@ const SingleProductPage = () => {
   if (error) {
     return <Error />;
   }
+  console.log(product);
   return <h4>single product page</h4>;
 };
 
