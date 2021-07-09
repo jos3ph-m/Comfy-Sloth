@@ -66,6 +66,7 @@ const SingleProductPage = () => {
           <ProductImages />
           <section className="content">
             <h2>{name}</h2>
+            <Stars />
           </section>
         </div>
       </div>
