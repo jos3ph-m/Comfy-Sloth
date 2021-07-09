@@ -81,6 +81,7 @@ const SingleProductPage = () => {
               <span>Brand:</span>
               {company}
             </p>
+            <hr />
           </section>
         </div>
       </div>
