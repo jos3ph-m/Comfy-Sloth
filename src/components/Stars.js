@@ -6,7 +6,7 @@ const Stars = ({ stars, reviews }) => {
     <Wrapper>
       <div className="stars">
         {/* start stars */}
-        <span></span>
+        <span>{stars >= 1 ? <BsStarFill /> : null}</span>
         {/* end stars */}
       </div>
       <p className="reviews">({reviews} customer reviews)</p>
