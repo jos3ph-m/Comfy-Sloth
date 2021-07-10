@@ -3,8 +3,12 @@ import styled from 'styled-components';
 
 const ProductImages = ({ images = [] }) => {
   const [main, setMain] = useState(images[0]);
-  console.log(images);
-  return <h4>product images</h4>;
+
+  return (
+    <Wrapper>
+      <img src={main.url} alt="main image" />
+    </Wrapper>
+  );
 };
 
 const Wrapper = styled.section`
