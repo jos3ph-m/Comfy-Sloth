@@ -6,7 +6,7 @@ const ProductImages = ({ images = [{ url: '' }] }) => {
 
   return (
     <Wrapper>
-      <img src={main.url} alt="main image" />
+      <img src={main.url} alt="main image" className="main" />
     </Wrapper>
   );
 };
