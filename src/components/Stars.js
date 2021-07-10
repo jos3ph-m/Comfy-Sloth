@@ -4,7 +4,11 @@ import { BsStarFill, BsStarHalf, BsStar } from 'react-icons/bs';
 const Stars = ({ stars, reviews }) => {
   return (
     <Wrapper>
-      <div className="stars"></div>
+      <div className="stars">
+        {/* start stars */}
+        <span></span>
+        {/* end stars */}
+      </div>
       <p className="reviews">({reviews} customer reviews)</p>
     </Wrapper>
   );
