@@ -10,7 +10,12 @@ const AddToCart = ({ product }) => {
 
   const [mainColor, SetMainColor] = useState(colors[0]);
 
-  return <h4>addToCart </h4>;
+  return (
+    <Wrapper>
+      <div className="colors"></div>
+      <div className="btn-container"></div>
+    </Wrapper>
+  );
 };
 
 const Wrapper = styled.section`
