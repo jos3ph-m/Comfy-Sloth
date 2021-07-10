@@ -43,7 +43,7 @@ const Stars = ({ stars, reviews }) => {
           )}
         </span>
         <span>
-          {stars >= 5 ? (
+          {stars === 5 ? (
             <BsStarFill />
           ) : stars >= 4.5 ? (
             <BsStarHalf />
@@ -51,7 +51,6 @@ const Stars = ({ stars, reviews }) => {
             <BsStar />
           )}
         </span>
-
         {/* end stars */}
       </div>
       <p className="reviews">({reviews} customer reviews)</p>
