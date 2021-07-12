@@ -12,6 +12,7 @@ const AddToCart = ({ product }) => {
   const [amount, setAmount] = useState(1);
 
   const increase = () => {};
+  const decrease = () => {};
   return (
     <Wrapper>
       <div className="colors">
