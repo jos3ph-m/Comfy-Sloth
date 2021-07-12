@@ -37,6 +37,9 @@ const AddToCart = ({ product }) => {
       </div>
       <div className="btn-container">
         <AmountButtons />
+        <Link to="/cart" className="btn">
+          add to cart
+        </Link>
       </div>
     </Wrapper>
   );
