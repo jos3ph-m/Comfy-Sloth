@@ -13,6 +13,7 @@ const AddToCart = ({ product }) => {
 
   const increase = () => {};
   const decrease = () => {};
+
   return (
     <Wrapper>
       <div className="colors">
@@ -34,7 +35,9 @@ const AddToCart = ({ product }) => {
           })}
         </div>
       </div>
-      <div className="btn-container"></div>
+      <div className="btn-container">
+        <AmountButtons />
+      </div>
     </Wrapper>
   );
 };
