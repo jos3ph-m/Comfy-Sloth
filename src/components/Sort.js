@@ -7,7 +7,7 @@ const Sort = () => {
   return (
     <Wrapper>
       <div className="btn-container">
-        <button type="button">
+        <button type="button" className={`${grid_view ? 'active' : null}`}>
           <BsFillGridFill />
         </button>
         <button type="button">
