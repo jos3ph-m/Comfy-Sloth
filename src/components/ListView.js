@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { formatPrice } from '../utils/helpers';
 import { Link } from 'react-router-dom';
 import products_reducer from '../reducers/products_reducer';
-const ListView = ({ product }) => {
+const ListView = ({ products }) => {
   return (
     <Wrapper>
       {products.map((product) => {
@@ -11,6 +11,14 @@ const ListView = ({ product }) => {
         return (
           <article key={id}>
             <img src={image} alt={name} />
+            <div>
+              <h4>{name}</h4>
+              <h5 className="price">{formatPrice(price)}</h5>
+              <p>{description}</p>
+              <Link to={`/products/${id}`} className="btn">
+                Details
+              </Link>
+            </div>
           </article>
         );
       })}
