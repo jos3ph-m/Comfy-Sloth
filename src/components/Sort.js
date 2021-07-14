@@ -18,6 +18,7 @@ const Sort = () => {
       <hr />
       <form>
         <label htmlFor="sort">sort by</label>
+        <select name="sort" id="sort"></select>
       </form>
     </Wrapper>
   );
