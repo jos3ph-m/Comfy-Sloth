@@ -16,6 +16,9 @@ const Sort = () => {
       </div>
       <p>{products.length} products found</p>
       <hr />
+      <form>
+        <label htmlFor="sort">sort by</label>
+      </form>
     </Wrapper>
   );
 };
