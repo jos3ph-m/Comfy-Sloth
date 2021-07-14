@@ -14,6 +14,7 @@ const Sort = () => {
           <BsList />
         </button>
       </div>
+      <p>{products.length} products found</p>
     </Wrapper>
   );
 };
