@@ -15,6 +15,7 @@ const Sort = () => {
         </button>
       </div>
       <p>{products.length} products found</p>
+      <hr />
     </Wrapper>
   );
 };
