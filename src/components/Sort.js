@@ -12,10 +12,18 @@ const Sort = () => {
   return (
     <Wrapper>
       <div className="btn-container">
-        <button type="button" className={`${grid_view ? 'active' : null}`}>
+        <button
+          type="button"
+          className={`${grid_view ? 'active' : null}`}
+          onClick={setGridView}
+        >
           <BsFillGridFill />
         </button>
-        <button type="button" className={`${!grid_view ? 'active' : null}`}>
+        <button
+          type="button"
+          className={`${!grid_view ? 'active' : null}`}
+          onClick={setListView}
+        >
           <BsList />
         </button>
       </div>
