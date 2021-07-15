@@ -31,6 +31,9 @@ export const FilterProvider = ({ children }) => {
   const setGridView = () => {
     dispatch({ type: SET_GRIDVIEW });
   };
+  const setGridView = () => {
+    dispatch({ type: SET_GRIDVIEW });
+  };
 
   return (
     <FilterContext.Provider value={{ ...state }}>
