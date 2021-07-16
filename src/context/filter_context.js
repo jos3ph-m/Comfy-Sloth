@@ -37,7 +37,8 @@ export const FilterProvider = ({ children }) => {
   };
 
   const updateSort = (e) => {
-    const name = e.target.name;
+    // for demonstration
+    // const name = e.target.name;
     const value = e.target.value;
   };
 
