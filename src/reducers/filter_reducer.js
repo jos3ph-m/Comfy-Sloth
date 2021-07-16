@@ -27,6 +27,7 @@ const filter_reducer = (state, action) => {
     return { ...state, sort: action.payload };
   }
   if (action.type === SORT_PRODUCTS) {
+    const { sort, filtered_products } = state;
     return { ...state };
   }
   throw new Error(`No Matching "${action.type}" - action type`);
