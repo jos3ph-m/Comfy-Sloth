@@ -8,6 +8,8 @@ const Sort = () => {
     grid_view,
     setGridView,
     setListView,
+    sort,
+    updateSort,
   } = useFilterContext();
   return (
     <Wrapper>
