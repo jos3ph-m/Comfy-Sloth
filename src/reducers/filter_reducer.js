@@ -32,6 +32,15 @@ const filter_reducer = (state, action) => {
     if (sort === 'price-lowest') {
       console.log('price-lowest');
     }
+    if (sort === 'price-highest') {
+      console.log('price-highest');
+    }
+    if (sort === 'name-a') {
+      console.log('name-a');
+    }
+    if (sort === 'name-b') {
+      console.log('name-b');
+    }
     return { ...state };
   }
   throw new Error(`No Matching "${action.type}" - action type`);
