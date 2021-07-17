@@ -40,7 +40,7 @@ const filter_reducer = (state, action) => {
         return a.name.localeCompare(b.name);
       });
     }
-    if (sort === 'name-b') {
+    if (sort === 'name-z') {
       tempProducts = tempProducts.sort((a, b) => {
         return b.name.localeCompare(a.name);
       });
