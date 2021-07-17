@@ -36,7 +36,9 @@ const filter_reducer = (state, action) => {
       tempProducts = tempProducts.sort((a, b) => b.price - a.price);
     }
     if (sort === 'name-a') {
-      console.log('name-a');
+      tempProducts = tempProducts.sort((a, b) => {
+        return a.name.localeCompare(b.name);
+      });
     }
     if (sort === 'name-b') {
       console.log('name-b');
