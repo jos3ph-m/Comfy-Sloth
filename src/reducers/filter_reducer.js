@@ -41,7 +41,9 @@ const filter_reducer = (state, action) => {
       });
     }
     if (sort === 'name-b') {
-      console.log('name-b');
+      tempProducts = tempProducts.sort((a, b) => {
+        return b.name.localeCompare(a.name);
+      });
     }
     return { ...state, filtered_products: tempProducts };
   }
