@@ -30,7 +30,7 @@ const filter_reducer = (state, action) => {
     const { sort, filtered_products } = state;
     let tempProducts = [...filtered_products];
     if (sort === 'price-lowest') {
-      console.log('price-lowest');
+      tempProducts = tempProducts.sort((a, b) => {});
     }
     if (sort === 'price-highest') {
       console.log('price-highest');
