@@ -19,6 +19,7 @@ const initialState = {
   sort: 'price-lowest',
   filters: {
     text: '',
+    company: 'all',
   },
 };
 
