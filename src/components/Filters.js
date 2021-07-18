@@ -17,7 +17,12 @@ const Filters = () => {
         <form onSubmit={(e) => e.preventDefault()}>
           {/* search input */}
           <div className="form-control">
-            <input type="text" name="text" />
+            <input
+              type="text"
+              name="text"
+              placeholder="search"
+              clearFilters="search-input"
+            />
           </div>
           {/* end search input */}
         </form>
