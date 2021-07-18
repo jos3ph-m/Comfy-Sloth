@@ -11,7 +11,13 @@ const Filters = () => {
     clearFilters,
     all_products,
   } = useFilterContext();
-  return <Wrapper><div className="content"><form onSubmit={}></form></div></Wrapper>;
+  return (
+    <Wrapper>
+      <div className="content">
+        <form onSubmit={(e) => e.preventDefault()}></form>
+      </div>
+    </Wrapper>
+  );
 };
 
 const Wrapper = styled.section`
