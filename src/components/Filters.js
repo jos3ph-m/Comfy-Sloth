@@ -7,6 +7,9 @@ import { FaCheck } from 'react-icons/fa';
 const Filters = () => {
   const {
     filters: { text, category, company, color, min_price, max_price, shipping },
+    updateFilters,
+    clearFilters,
+    all_products,
   } = useFilterContext();
   return <Wrapper>filters</Wrapper>;
 };
