@@ -14,7 +14,13 @@ const Filters = () => {
   return (
     <Wrapper>
       <div className="content">
-        <form onSubmit={(e) => e.preventDefault()}></form>
+        <form onSubmit={(e) => e.preventDefault()}>
+          {/* search input */}
+          <div className="form-control">
+            <input type="text" />
+          </div>
+          {/* end search input */}
+        </form>
       </div>
     </Wrapper>
   );
