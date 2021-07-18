@@ -11,7 +11,7 @@ const Filters = () => {
     clearFilters,
     all_products,
   } = useFilterContext();
-  return <Wrapper>filters</Wrapper>;
+  return <Wrapper><div className="content"><form onSubmit={}></form></div></Wrapper>;
 };
 
 const Wrapper = styled.section`
