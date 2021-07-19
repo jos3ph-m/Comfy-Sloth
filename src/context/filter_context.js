@@ -40,7 +40,7 @@ export const FilterProvider = ({ children }) => {
   }, [products]);
 
   useEffect(() => {
-    dispatch();
+    dispatch({type:});
     dispatch({ type: SORT_PRODUCTS });
   }, [products, state.sort, state.filters]);
 
