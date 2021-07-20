@@ -32,6 +32,8 @@ const Filters = () => {
             />
           </div>
           {/* end search input */}
+          {/* categories */}
+          {/* end of categories */}
         </form>
       </div>
     </Wrapper>
