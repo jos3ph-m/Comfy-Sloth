@@ -34,9 +34,8 @@ const Filters = () => {
           {/* end search input */}
           {/* categories */}
           <div className="form-control">
-            <h5>
-              <div>{}</div>
-            </h5>
+            <h5>category</h5>
+            <div>{}</div>
           </div>
           {/* end of categories */}
         </form>
