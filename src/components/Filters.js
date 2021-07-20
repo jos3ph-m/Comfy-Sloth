@@ -37,7 +37,11 @@ const Filters = () => {
             <h5>category</h5>
             <div>
               {categories.map((c, index) => {
-                return <button key={index}>{c}</button>;
+                return (
+                  <button key={index} onClick={updateFilters}>
+                    {c}
+                  </button>
+                );
               })}
             </div>
           </div>
