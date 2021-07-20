@@ -35,7 +35,11 @@ const Filters = () => {
           {/* categories */}
           <div className="form-control">
             <h5>category</h5>
-            <div>{}</div>
+            <div>
+              {categories.map((c, index) => {
+                return <button key={index}>{c}</button>;
+              })}
+            </div>
           </div>
           {/* end of categories */}
         </form>
