@@ -43,6 +43,9 @@ const Filters = () => {
                     onClick={updateFilters}
                     type="button"
                     name="category"
+                    className={`${
+                      category === c.toLowerCase() ? 'active' : null
+                    }`}
                   >
                     {c}
                   </button>
