@@ -86,6 +86,7 @@ const Filters = () => {
                     className={`${
                       color === c ? 'color-btn active' : 'color-btn'
                     }`}
+                    data-color={c}
                   ></button>
                 );
               })}
