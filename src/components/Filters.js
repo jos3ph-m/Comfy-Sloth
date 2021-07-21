@@ -135,7 +135,9 @@ const Filters = () => {
           </div>
           {/* end of price */}
           {/* shipping */}
-          <div className="form-control"></div>
+          <div className="form-control">
+            <label htmlFor="shipping">free shipping</label>
+          </div>
           {/* end of shipping */}
         </form>
       </div>
