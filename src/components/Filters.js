@@ -78,7 +78,7 @@ const Filters = () => {
             <h5>colors</h5>
             <div className="colors">
               {colors.map((c, index) => {
-                return <button></button>;
+                return <button key={index} name="color"></button>;
               })}
             </div>
           </div>
