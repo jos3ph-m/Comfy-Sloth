@@ -137,6 +137,7 @@ const Filters = () => {
           {/* shipping */}
           <div className="form-control">
             <label htmlFor="shipping">free shipping</label>
+            <input type="checkbox" name="shipping" id="shipping" />
           </div>
           {/* end of shipping */}
         </form>
