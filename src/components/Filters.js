@@ -134,6 +134,8 @@ const Filters = () => {
             />
           </div>
           {/* end of price */}
+          {/* shipping */}
+          {/* end of shipping */}
         </form>
       </div>
     </Wrapper>
