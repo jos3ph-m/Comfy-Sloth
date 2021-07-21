@@ -76,7 +76,11 @@ const Filters = () => {
           {/* colors */}
           <div className="form-control">
             <h5>colors</h5>
-            <div className="colors"></div>
+            <div className="colors">
+              {colors.map((c, index) => {
+                return <button></button>;
+              })}
+            </div>
           </div>
           {/* end of colors */}
         </form>
