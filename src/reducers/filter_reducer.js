@@ -59,6 +59,9 @@ const filter_reducer = (state, action) => {
     const { text, category, company, color, price, shipping } = state.filters;
     let tempProducts = [...all_products];
     //filtering
+    if (text) {
+      tempProducts = tempProducts;
+    }
     return { ...state, filtered_products: tempProducts };
   }
   if (action.type === CLEAR_FILTERS) {
