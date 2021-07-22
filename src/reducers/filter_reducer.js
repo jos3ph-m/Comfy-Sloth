@@ -60,7 +60,9 @@ const filter_reducer = (state, action) => {
     let tempProducts = [...all_products];
     //filtering
     if (text) {
-      tempProducts = tempProducts.filter;
+      tempProducts = tempProducts.filter((product) => {
+        return product.name.toLowerCase().startsWith(text);
+      });
     }
     return { ...state, filtered_products: tempProducts };
   }
