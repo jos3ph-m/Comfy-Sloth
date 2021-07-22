@@ -60,7 +60,7 @@ const filter_reducer = (state, action) => {
     let tempProducts = [...all_products];
     //filtering
     if (text) {
-      tempProducts = tempProducts;
+      tempProducts = tempProducts.filter;
     }
     return { ...state, filtered_products: tempProducts };
   }
