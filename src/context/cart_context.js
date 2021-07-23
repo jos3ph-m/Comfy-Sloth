@@ -18,7 +18,7 @@ const initialState = {
 const CartContext = React.createContext();
 
 export const CartProvider = ({ children }) => {
-  const [state, dispatch] = useReducer(reducer);
+  const [state, dispatch] = useReducer(reducer, initialState);
   return (
     <CartContext.Provider value="cart context">{children}</CartContext.Provider>
   );
