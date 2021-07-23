@@ -11,6 +11,7 @@ import {
 const initialState = {
   cart: [],
   total_items: 0,
+  total_amount: 0,
 };
 
 const CartContext = React.createContext();
