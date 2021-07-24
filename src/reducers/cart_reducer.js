@@ -15,6 +15,9 @@ const cart_reducer = (state, action) => {
       const newItem = {
         id: id + color,
         name: product.name,
+        color,
+        amount,
+        image: product.images[0],
       };
       return { ...state, cart: [...state.cart, newItem] };
     }
