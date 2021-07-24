@@ -12,7 +12,10 @@ const cart_reducer = (state, action) => {
     const tempItem = state.cart.find((i) => i.id === id + color);
     if (tempItem) {
     } else {
-      const newItem = {};
+      const newItem = {
+        id: id + color,
+        name: product.name,
+      };
       return { ...state, cart: [...state.cart, newItem] };
     }
   }
