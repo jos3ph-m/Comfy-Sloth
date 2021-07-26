@@ -8,6 +8,10 @@ import {
   COUNT_CART_TOTALS,
 } from '../actions';
 
+const getLocalStorage = () => {
+  let cart = localStorage.getItem('cart');
+};
+
 const initialState = {
   cart: [],
   total_items: 0,
