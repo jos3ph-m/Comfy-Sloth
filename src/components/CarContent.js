@@ -11,6 +11,10 @@ const CartContent = () => {
   return (
     <Wrapper className="section section-center">
       <CartColumns />
+      {cart.map((item) => {
+        return <CartItem key={item.id} {...item} />;
+      })}
+      <hr />
     </Wrapper>
   );
 };
