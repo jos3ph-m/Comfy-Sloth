@@ -15,7 +15,18 @@ const CartContent = () => {
         return <CartItem key={item.id} {...item} />;
       })}
       <hr />
-      <div className="link-container"></div>
+      <div className="link-container">
+        <Link to="/products" className="link-btn">
+          continue shopping
+        </Link>
+        <button
+          type="button"
+          className="link-btn clear-btn"
+          onClick={clearCart}
+        >
+          clear shopping cart
+        </button>
+      </div>
     </Wrapper>
   );
 };
