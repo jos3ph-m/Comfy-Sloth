@@ -10,6 +10,10 @@ import {
 
 const getLocalStorage = () => {
   let cart = localStorage.getItem('cart');
+  if (cart) {
+  } else {
+    return [];
+  }
 };
 
 const initialState = {
