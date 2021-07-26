@@ -8,7 +8,11 @@ import CartTotals from './CartTotals';
 
 const CartContent = () => {
   const { cart, clearCart } = useCartContext();
-  return <Wrapper className="section section-center">cart content </Wrapper>;
+  return (
+    <Wrapper className="section section-center">
+      <CartColumns />
+    </Wrapper>
+  );
 };
 const Wrapper = styled.section`
   .link-container {
