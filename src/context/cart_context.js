@@ -32,7 +32,9 @@ export const CartProvider = ({ children }) => {
   // clear cart
   const clearCart = () => {};
 
-  useEffect(() => {}, [state.cart]);
+  useEffect(() => {
+    localStorage.setItem();
+  }, [state.cart]);
 
   return (
     <CartContext.Provider
