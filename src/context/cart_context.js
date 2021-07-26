@@ -33,7 +33,7 @@ export const CartProvider = ({ children }) => {
   const clearCart = () => {};
 
   useEffect(() => {
-    localStorage.setItem();
+    localStorage.setItem('cart', JSON.stringify(state.cart));
   }, [state.cart]);
 
   return (
