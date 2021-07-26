@@ -27,6 +27,7 @@ export const CartProvider = ({ children }) => {
 
   // remove item
   const removeItem = (id) => {};
+  // toggle amount
 
   return (
     <CartContext.Provider value={{ ...state, addToCart }}>
