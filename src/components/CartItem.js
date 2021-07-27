@@ -8,7 +8,11 @@ const CartItem = () => {
   const { removeItem, toggleAmount } = useCartContext();
   const increase = () => {};
   const decrease = () => {};
-  return <h4>cart item</h4>;
+  return (
+    <Wrapper>
+      <div className="title"></div>
+    </Wrapper>
+  );
 };
 
 const Wrapper = styled.article`
