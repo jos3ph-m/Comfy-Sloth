@@ -2,7 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 
 const CartColumns = () => {
-  return <Wrapper>cart columns</Wrapper>;
+  return (
+    <Wrapper>
+      <div className="content"></div>
+    </Wrapper>
+  );
 };
 
 const Wrapper = styled.div`
