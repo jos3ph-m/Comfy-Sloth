@@ -63,7 +63,7 @@ const cart_reducer = (state, action) => {
           if (newAmount < 1) {
             newAmount = 1;
           }
-          return { ...item };
+          return { ...item, amount: newAmount };
         }
       } else {
         return item;
