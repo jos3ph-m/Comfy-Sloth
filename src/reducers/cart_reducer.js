@@ -47,6 +47,10 @@ const cart_reducer = (state, action) => {
     return { ...state, cart: [] };
   }
 
+  if (action.type === TOGGLE_CART_ITEM_AMOUNT) {
+    const { id, value } = action.payload;
+  }
+
   throw new Error(`No Matching "${action.type}" - action type`);
 };
 
