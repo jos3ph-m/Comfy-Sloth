@@ -52,11 +52,22 @@ const cart_reducer = (state, action) => {
     const tempCart = state.cart.map((item) => {
       if (item.id === id) {
         if (value === 'inc') {
+          let newAmount = item.amount + 1;
+          if (newAmount > item.max) {
+            newAmount = item.max;
+          }
+          return { ...item, amount: newAmount };
         }
         if (value === 'dec') {
+          let newAmount = item.amount - 1;
+          if (newAmount < 1) {
+            newAmount = 1;
+          }
+          return { ...item };
         }
+      } else {
+        return item;
       }
-      return item;
     });
 
     return { ...state, cart: tempCart };
