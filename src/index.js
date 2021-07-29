@@ -13,6 +13,7 @@ ReactDOM.render(
     domain="dev-arq2j0pf.us.auth0.com"
     clientId="gpWAyFJ5RmEKCK1XpBgFyAsSWR4wlTcN"
     redirectUri={window.location.origin}
+    cacheLocation="localstorage"
   >
     <ProductsProvider>
       <FilterProvider>
