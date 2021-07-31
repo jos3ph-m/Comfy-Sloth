@@ -20,7 +20,7 @@ const CartButtons = () => {
           <span className="cart-value">{total_items}</span>
         </span>
       </Link>
-      <button type="button" className="auth-btn">
+      <button type="button" className="auth-btn" onClick={loginWithRedirect}>
         Login <FaUserPlus />
       </button>
       <button type="button" className="auth-btn">
