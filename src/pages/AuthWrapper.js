@@ -18,7 +18,7 @@ const AuthWrapper = ({ children }) => {
       </Wrapper>
     );
   }
-  return <div></div>;
+  return <>{children}</>;
 };
 
 const Wrapper = styled.section`
