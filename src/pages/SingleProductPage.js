@@ -25,6 +25,7 @@ const SingleProductPage = () => {
   } = useProductsContext();
   useEffect(() => {
     fetchSingleProduct(`${url}${id}`);
+    // eslint-disable-next-line
   }, [id]);
 
   // return home after 3 seconds
