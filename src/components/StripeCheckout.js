@@ -14,7 +14,7 @@ import { formatPrice } from '../utils/helpers';
 import { useHistory } from 'react-router-dom';
 
 const CheckoutForm = () => {
-  return <h2>You've clicked to checkout</h2>;
+  return <h2>You've clicked to checkout, and it worked! 🙂 </h2>;
 };
 
 const StripeCheckout = () => {
