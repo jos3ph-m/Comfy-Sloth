@@ -49,6 +49,12 @@ const CheckoutForm = () => {
   const createPaymentIntent = async () => {
     console.log('hello from stripe checkout');
   };
+
+  useEffect(() => {
+    createPaymentIntent();
+    // eslint-disable-next-line
+  }, []);
+
   return <h2>You've clicked to checkout with stripe, and it worked! 🙂 </h2>;
 };
 
