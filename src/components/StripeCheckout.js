@@ -46,6 +46,9 @@ const CheckoutForm = () => {
     },
   };
 
+  const createPaymentIntent = async () => {
+    console.log('hello from stripe checkout');
+  };
   return <h2>You've clicked to checkout with stripe, and it worked! 🙂 </h2>;
 };
 
