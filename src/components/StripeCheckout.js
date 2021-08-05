@@ -56,9 +56,19 @@ const CheckoutForm = () => {
   }, []);
 
   const handleChange = async (event) => {};
-  const handleSubmit = async (event) => {};
+  const handleSubmit = async (ev) => {};
 
-  return <h2>You've clicked to checkout with stripe, and it worked! 🙂 </h2>;
+  return (
+    <div>
+      <form id="payment-form" onSubmit={handleSubmit}>
+        <CardElement
+          id="card-element"
+          options={cardStyle}
+          onChange={handleChange}
+        />
+      </form>
+    </div>
+  );
 };
 
 const StripeCheckout = () => {
