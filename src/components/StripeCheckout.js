@@ -24,6 +24,7 @@ const CheckoutForm = () => {
   const [error, setError] = useState(null);
   const [processing, setProcessing] = useState('');
   const [disabled, setDisabled] = useState(true);
+  const [clientSecret, setClientSecret] = useState('');
 
   const cardStyle = {
     style: {
