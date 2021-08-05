@@ -46,7 +46,7 @@ const CheckoutForm = () => {
     },
   };
 
-  return <h2>You've clicked to checkout, and it worked! 🙂 </h2>;
+  return <h2>You've clicked to checkout with stripe, and it worked! 🙂 </h2>;
 };
 
 const StripeCheckout = () => {
