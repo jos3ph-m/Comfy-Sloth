@@ -16,6 +16,20 @@ import { useHistory } from 'react-router-dom';
 const promise = loadStripe(process.env.REACT_APP_STRIPE_PUBLIC_KEY);
 
 const CheckoutForm = () => {
+  const cardStyle = {
+    style: {
+      base: {
+        color: '#32325d',
+        fontFamily: 'Arial, sans-serif',
+        fontSmoothing: 'antialiased',
+        fontSize: '16px',
+        '::placeholder': {
+          color: '#32325d',
+        },
+      },
+    },
+  };
+
   return <h2>You've clicked to checkout, and it worked! 🙂 </h2>;
 };
 
