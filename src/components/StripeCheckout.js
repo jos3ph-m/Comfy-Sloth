@@ -20,7 +20,7 @@ const CheckoutForm = () => {
   const { myUser } = useUserContext();
   const history = useHistory();
   // STRIPE STUFF
-  const [succeeded, setSucceeded] = useState();
+  const [succeeded, setSucceeded] = useState(false);
 
   const cardStyle = {
     style: {
