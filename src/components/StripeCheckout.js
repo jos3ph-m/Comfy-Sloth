@@ -55,6 +55,8 @@ const CheckoutForm = () => {
     // eslint-disable-next-line
   }, []);
 
+  const handleChange = async () => {};
+
   return <h2>You've clicked to checkout with stripe, and it worked! 🙂 </h2>;
 };
 
