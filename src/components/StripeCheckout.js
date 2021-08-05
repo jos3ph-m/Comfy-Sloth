@@ -19,6 +19,8 @@ const CheckoutForm = () => {
   const { cart, total_amount, shipping_fee, clearCart } = useCartContext();
   const { myUser } = useUserContext();
   const history = useHistory();
+  // STRIPE STUFF
+  const [succeeded, setSucceeded] = useState();
 
   const cardStyle = {
     style: {
