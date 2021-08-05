@@ -27,6 +27,10 @@ const CheckoutForm = () => {
           color: '#32325d',
         },
       },
+      invalid: {
+        color: '#fa755a',
+        iconColor: '#fa755a',
+      },
     },
   };
 
