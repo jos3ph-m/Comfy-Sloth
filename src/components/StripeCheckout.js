@@ -22,7 +22,9 @@ const CheckoutForm = () => {
 const StripeCheckout = () => {
   return (
     <Wrapper>
-      <CheckoutForm />
+      <Elements>
+        <CheckoutForm />
+      </Elements>
     </Wrapper>
   );
 };
