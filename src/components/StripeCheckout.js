@@ -16,7 +16,7 @@ import { useHistory } from 'react-router-dom';
 const promise = loadStripe(process.env.REACT_APP_STRIPE_PUBLIC_KEY);
 
 const CheckoutForm = () => {
-  const {cart}
+  const {cart, total_amount, shipping_fee}
   const cardStyle = {
     style: {
       base: {
