@@ -66,7 +66,7 @@ const CheckoutForm = () => {
           options={cardStyle}
           onChange={handleChange}
         />
-        <button></button>
+        <button disabled={processing || disabled || succeeded}></button>
       </form>
     </div>
   );
