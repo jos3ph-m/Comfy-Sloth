@@ -79,7 +79,7 @@ const CheckoutForm = () => {
         )}
         {/* Show success message */}
         <p className={succeeded ? 'result-message' : 'result-message hidden'}>
-          Payment Succeeded
+          Payment succeeded, see the result in your
         </p>
       </form>
     </div>
