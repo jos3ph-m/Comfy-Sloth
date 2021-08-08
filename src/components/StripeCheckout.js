@@ -48,7 +48,7 @@ const CheckoutForm = () => {
 
   const createPaymentIntent = async () => {
     try {
-      const data = await axios;
+      const data = await axios.post();
     } catch (error) {}
   };
 
