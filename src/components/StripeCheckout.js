@@ -48,7 +48,9 @@ const CheckoutForm = () => {
 
   const createPaymentIntent = async () => {
     try {
-      const data = await axios.post();
+      const data = await axios.post(
+        '/.netlify/functions/create-payment-intent'
+      );
     } catch (error) {}
   };
 
