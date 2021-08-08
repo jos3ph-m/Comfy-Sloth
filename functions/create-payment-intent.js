@@ -2,8 +2,9 @@
 
 exports.handler = async function (event, context) {
   const { cart, shipping_fee, total_amount } = JSON.parse(event.body);
+  console.log(cart);
   return {
     statusCode: 200,
-    body: 'payment intent',
+    body: JSON.stringify(cart),
   };
 };
