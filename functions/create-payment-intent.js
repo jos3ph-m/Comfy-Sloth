@@ -12,6 +12,6 @@ exports.handler = async function (event, context) {
 
   return {
     statusCode: 200,
-    body: 'Create Payment Intent',
+    body: 'CPI - Create Payment Intent',
   };
 };
