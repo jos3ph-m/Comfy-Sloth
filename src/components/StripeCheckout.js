@@ -47,7 +47,9 @@ const CheckoutForm = () => {
   };
 
   const createPaymentIntent = async () => {
-    console.log('hello from stripe checkout');
+    try {
+      const data = await axios;
+    } catch (error) {}
   };
 
   useEffect(() => {
