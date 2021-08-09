@@ -20,7 +20,12 @@ exports.handler = async function (event, context) {
         statusCode: 200,
         body: JSON.stringify({ clientSecret: paymentIntent.client_secret }),
       };
-    } catch (error) {}
+    } catch (error) {
+      return {
+        statusCode: 500,
+        body: JSON.stringify({ error: error.message }),
+      };
+    }
   }
 
   return {
