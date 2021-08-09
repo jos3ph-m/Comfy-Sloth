@@ -1,4 +1,5 @@
 // domain/.netlify/functions/create-payment-intent
+require('dotenv').config();
 
 exports.handler = async function (event, context) {
   if (event.body) {
