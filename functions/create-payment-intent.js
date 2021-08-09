@@ -7,6 +7,10 @@ exports.handler = async function (event, context) {
   if (event.body) {
     const { cart, shipping_fee, total_amount } = JSON.parse(event.body);
 
+    const calculateOrderAmount = () => {
+      return shipping_fee + total_amount;
+    };
+
     return {
       statusCode: 200,
       body: JSON.stringify(cart),
