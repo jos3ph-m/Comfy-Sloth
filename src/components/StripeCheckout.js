@@ -81,6 +81,7 @@ const CheckoutForm = () => {
       setProcessing(false);
     } else {
       setError(null);
+      setProcessing(false);
     }
   };
 
