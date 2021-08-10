@@ -69,15 +69,18 @@ const CheckoutForm = () => {
 
   return (
     <div>
-      {
-        succeeded ? 
+      {succeeded ? (
         <article>
           <h4>Thank you</h4>
           <h4>Your payment was successful!</h4>
           <h4>Redirecting you to the home page shortly</h4>
         </article>
-        
-      }
+      ) : (
+        <article>
+          <h4>Hello, {myUser && myUser.name}</h4>
+          <p>Your total is {formatPrice(shipping_fee + total_amount)}</p>
+        </article>
+      )}
       <form id="payment-form" onSubmit={handleSubmit}>
         <CardElement
           id="card-element"
