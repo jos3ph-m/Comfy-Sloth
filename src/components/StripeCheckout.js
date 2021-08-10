@@ -77,7 +77,7 @@ const CheckoutForm = () => {
       },
     });
     if (payload.error) {
-      setError();
+      setError(`Payment failed ${payload.error.message}`);
     }
   };
 
