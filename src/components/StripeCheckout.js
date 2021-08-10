@@ -71,7 +71,7 @@ const CheckoutForm = () => {
   const handleSubmit = async (ev) => {
     ev.preventDefault();
     setProcessing(true);
-    const payload = await stripe.confirmCardPayment();
+    const payload = await stripe.confirmCardPayment(clientSecret);
   };
 
   return (
