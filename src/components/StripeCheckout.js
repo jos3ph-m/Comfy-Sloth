@@ -70,6 +70,7 @@ const CheckoutForm = () => {
   };
   const handleSubmit = async (ev) => {
     ev.preventDefault();
+    setProcessing(true);
   };
 
   return (
