@@ -20,7 +20,7 @@ const CheckoutForm = () => {
   const { myUser } = useUserContext();
   const history = useHistory();
   // STRIPE STUFF
-  const [succeeded, setSucceeded] = useState(true);
+  const [succeeded, setSucceeded] = useState(false);
   const [error, setError] = useState(null);
   const [processing, setProcessing] = useState('');
   const [disabled, setDisabled] = useState(true);
