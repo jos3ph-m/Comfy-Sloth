@@ -76,6 +76,8 @@ const CheckoutForm = () => {
         card: elements.getElement(CardElement),
       },
     });
+    if (payload.error) {
+    }
   };
 
   return (
