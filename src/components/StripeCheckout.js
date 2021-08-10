@@ -77,6 +77,7 @@ const CheckoutForm = () => {
       },
     });
     if (payload.error) {
+      setError();
     }
   };
 
