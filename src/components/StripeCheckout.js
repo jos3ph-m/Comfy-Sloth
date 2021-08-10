@@ -72,7 +72,9 @@ const CheckoutForm = () => {
     ev.preventDefault();
     setProcessing(true);
     const payload = await stripe.confirmCardPayment(clientSecret, {
-      payment_method: {},
+      payment_method: {
+        card: elements.getElement(),
+      },
     });
   };
 
