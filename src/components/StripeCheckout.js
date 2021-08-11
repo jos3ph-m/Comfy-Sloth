@@ -96,7 +96,7 @@ const CheckoutForm = () => {
         <article>
           <h4>Thank you</h4>
           <h4>Your payment was successful!</h4>
-          <h4>Redirecting you to the home page shortly</h4>
+          <h4>Redirecting you home shortly</h4>
         </article>
       ) : (
         <article>
