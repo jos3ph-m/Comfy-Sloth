@@ -116,7 +116,7 @@ const CheckoutForm = () => {
             {processing ? <div className="spinner" id="spinner"></div> : 'Pay'}
           </span>
         </button>
-        {/* Show any error that happens when processing the payment */}
+        {/* Show any errors that happens when processing the payment */}
         {error && (
           <div className="card-error" role="alert">
             {error}
